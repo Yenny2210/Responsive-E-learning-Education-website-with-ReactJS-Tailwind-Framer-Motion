@@ -1,10 +1,14 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
-export const App = () => {
+const App = () => {
   return (
-    <main className='overflow-x-hidden bg-white text-dark'>
-      <Navbar/>
+    <main className="overflow-x-hidden bg-white text-dark">
+      <Navbar />
+      <Hero />
     </main>
   )
 }
+
+export default App;
