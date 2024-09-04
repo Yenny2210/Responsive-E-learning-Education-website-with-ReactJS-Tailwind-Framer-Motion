@@ -11,12 +11,12 @@ const Banner = () => {
         <div className="container py-14 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-8 space-y-6 md:space-y-0">
             {/* banner image */}
             <div className='flex justify-center items-center'>
-                <img src={BannerPng} alt="" className='w-[350px] md:max-w-[450px] object-cover drop-shadow' />
+                <motion.img initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, ease: "easeInOut" }} src={BannerPng} alt="" className='w-[350px] md:max-w-[450px] object-cover drop-shadow' />
             </div>
             {/* banner text */}
             <div className='flex flex-col justify-center'>
                 <div className="text-center md:text-left space-y-12">
-                    <motion.h1 initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} className="text-3xl md:text-4xl font-bold !leading-snug">
+                    <motion.h1 initial={{ opacity: 0, scale: 0.5 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="text-3xl md:text-4xl font-bold !leading-snug">
                         The World's Leading Online learning Platform
                     </motion.h1>
                     <div className='flex flex-col gap-6'>
