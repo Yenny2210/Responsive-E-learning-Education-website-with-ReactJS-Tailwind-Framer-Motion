@@ -30,7 +30,7 @@ export const FadeUp = (delay) => {
 // definicion del componente hero
 const Hero = () => {
     return (
-        <section className='bg-light dark:bg-black overflow-hidden relative'>
+        <section className='bg-light dark:bg-white overflow-hidden relative'>
             <Navbar />
             <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px]">
                 {/* informacion de la marca */}
