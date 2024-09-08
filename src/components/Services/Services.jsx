@@ -1,53 +1,53 @@
 import { div, title } from 'framer-motion/client'
 import React from 'react'
-import { RiComputerLine } from 'react-icons/ri'
-import { CiMobile3 } from 'react-icons/ci'
-import { TbWorldWww } from 'react-icons/tb'
-import { IoMdHappy } from 'react-icons/io'
 import { BiSupport } from 'react-icons/bi'
-import { IoPulseOutline } from 'react-icons/io5'
+import { CiCreditCard1 } from "react-icons/ci";
+import { MdCastForEducation } from "react-icons/md";
+import { MdManageHistory } from "react-icons/md";
+import { IoDiamondOutline } from "react-icons/io5";
+import { SiCoursera } from "react-icons/si";
 import { motion } from 'framer-motion'
 
 
 const ServicesData = [
     {
         id: 1,
-        title: "Web development",
+        title: "Educación a Distancia",
         link: "#",
-        icon: < TbWorldWww />,
+        icon: < MdCastForEducation />,
         delay: 0.2,
     },
     {
         id: 2,
-        title: "Mobile development",
+        title: "Gestión de Plataforma Educativa",
         link: "#",
-        icon: < CiMobile3 />,
+        icon: < MdManageHistory />,
         delay: 0.3,
     },
     {
         id: 3,
-        title: "Software development",
+        title: "Membresías Educativas",
         link: "#",
-        icon: < RiComputerLine />,
+        icon: < IoDiamondOutline />,
         delay: 0.4,
     },
     {
         id: 4,
-        title: "Satisfied clients",
+        title: "Cursos y Programas Especializados",
         link: "#",
-        icon: < IoMdHappy />,
+        icon: < SiCoursera />,
         delay: 0.5
     },
     {
         id: 5,
-        title: "SEO optimization",
+        title: "Plataforma de Pagos Segura",
         link: "#",
-        icon: < IoPulseOutline />,
+        icon: < CiCreditCard1 />,
         delay: 0.6
     },
     {
         id: 6,
-        title: "24/7 support",
+        title: "Soporte Técnico y Académico 24/7",
         link: "#",
         icon: < BiSupport />,
         delay: 0.7

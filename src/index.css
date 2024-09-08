@@ -4,7 +4,7 @@
 
 @layer components {
     .primary-btn {
-        @apply inline-block bg-primary text-white font-semibold rounded-lg hover:bg-secondary duration-200 shadow-[0px_10px_8px_-7px_#ffd978] hover:shadow-[0px_10px_8px_-7px_#69a79c] py-2 px-6;
+        @apply inline-block bg-primary text-white font-semibold rounded-lg hover:bg-secondary duration-200 shadow-[0px_10px_8px_-7px_#67BED0] hover:shadow-[0px_10px_8px_-7px_#7A61D7] py-2 px-6;
     }
 }
 
@@ -12,4 +12,26 @@
     .drop-shadow {
         filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.5));
     }
+}
+
+.menu-dropdown {
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    /* ajusta el ancho según sea necesario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-dropdown li {
+    margin-bottom: 10px;
+    cursor: pointer;
 }

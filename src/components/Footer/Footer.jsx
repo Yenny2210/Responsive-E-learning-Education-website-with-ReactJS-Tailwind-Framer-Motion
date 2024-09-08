@@ -10,21 +10,21 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-4">
                     {/* first section */}
                     <div className='space-y-4 max-w-[300px]'>
-                        <h1 className='text-2xl font-bold'>The Coding Journey</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quas omnis laudantium molestias consequuntur optio nostrum dicta rem quam nam velit impedit delectus suscipit, et nobis a voluptates excepturi iusto.
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        <h1 className='text-2xl font-bold'>EducaNet Academy</h1>
+                        <p>
+                            Somos una institución educativa comprometida con brindar acceso a la educación de calidad a través de nuestra plataforma e-learning. Con una amplia oferta de cursos, carreras y diplomados, estamos aquí para acompañarte en tu crecimiento profesional, sin importar dónde te encuentres.
                         </p>
                     </div>
                     {/* second section */}
                     <div className='grid grid-cols-2 gap-10'>
                         <div className='space-y-4'>
-                            <h1 className='text-2xl font-bold'>Courses</h1>
+                            <h1 className='text-2xl font-bold'>Cursos</h1>
                             <div className='text-dark2'>
                                 <ul className='space-y-2 text-lg'>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>Web Development</li>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>Software Development</li>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>Apps Development</li>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>E-learning</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Educación a Distancia</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Carreras Universitarias</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Diplomados Especializados</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Certificaciones Profesionales</li>
                                 </ul>
                             </div>
                         </div>
@@ -32,20 +32,21 @@ const Footer = () => {
                             <h1 className='text-2xl font-bold'>Links</h1>
                             <div className='text-dark2'>
                                 <ul className='space-y-2 text-lg'>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>Home</li>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>Services</li>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>About</li>
-                                    <li className='cursor-pointer hover:text-secondary duration-200'>Contact</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Inicio</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Servicios</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Sobre Nosotros</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Nuestro equipo</li>
+                                    <li className='cursor-pointer hover:text-secondary duration-200'>Contactanos</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     {/* third section */}
                     <div className='space-y-4 max-w-[300px]'>
-                        <h1 className='text-2xl font-bold'>Get In Touch</h1>
+                        <h1 className='text-2xl font-bold'>Ponte en contacto</h1>
                         <div className='flex items-center'>
-                            <input type="text" placeholder='Enter your email' className='p-3 rounded-s-xl bg-white w-full py-4 focus:ring-0 focus:outline-none placeholder:text-dark2' />
-                            <button className='bg-primary text-white font-semibold py-4 px-6 rounded-e-xl'>Go</button>
+                            <input type="text" placeholder='Ingresa tu correo electrónico' className='p-3 rounded-s-xl bg-white w-full py-4 focus:ring-0 focus:outline-none placeholder:text-dark2' />
+                            <button className='bg-primary text-white font-semibold py-4 px-6 rounded-e-xl'>Ir</button>
                         </div>
                         {/* social icons */}
                         <div className='flex space-x-6 py-3'>
