@@ -60,21 +60,16 @@ const NavbarMenu = [
   },
   {
     id: 2,
-    title: 'Servicios',
-    path: '/services',
+    title: 'Sobre Nosotros',
+    path: '/about_us',
   },
   {
     id: 3,
-    title: 'Sobre Nosotros',
-    path: '/about',
-  },
-  {
-    id: 4,
     title: 'Nuestro Equipo',
     path: '/team',
   },
   {
-    id: 5,
+    id: 4,
     title: 'Contáctanos',
     path: '/contact',
   },

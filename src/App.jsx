@@ -8,6 +8,8 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Banner2 from "./components/Banner/Banner2";
 import Footer from "./components/Footer/Footer";
 import Contact_us from "./components/Contact_us/Contact_us";
+import Our_Team from "./components/Our_Team/Our_Team";
+import About_Us from "./components/About_us/About_us";
 
 const App = () => {
   return (
@@ -31,12 +33,12 @@ const App = () => {
           }
         />
 
-        {/* Página de Servicios */}
+        {/* Página Sobre Nosotros */}
         <Route
-          path="/services"
+          path="/about_us"
           element={
             <main className="overflow-x-hidden bg-white text-dark">
-              <Services />
+              <About_Us />
               <Footer />
             </main>
           }
@@ -59,6 +61,17 @@ const App = () => {
           element={
             <main className="overflow-x-hidden bg-white text-dark">
               <Contact_us />
+              <Footer />
+            </main>
+          }
+        />
+
+        {/* Página de Nuestro Equipo */}
+        <Route
+          path="/team"
+          element={
+            <main className="overflow-x-hidden bg-white text-dark">
+              <Our_Team />
               <Footer />
             </main>
           }
