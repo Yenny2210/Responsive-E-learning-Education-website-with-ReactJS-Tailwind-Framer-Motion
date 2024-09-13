@@ -76,6 +76,7 @@ const NavbarMenu = [
 ];
 
 // Navbar principal
+// Navbar principal
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Estado para controlar el menú hamburguesa
 
@@ -105,7 +106,12 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
-            <button className="primary-btn">Iniciar Sesión</button>
+            {/* Modificamos el botón de iniciar sesión */}
+            <li>
+              <Link to="/login" className="primary-btn">
+                Iniciar Sesión
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -115,5 +121,6 @@ const Navbar = () => {
     </nav>
   );
 };
+
 
 export default Navbar;

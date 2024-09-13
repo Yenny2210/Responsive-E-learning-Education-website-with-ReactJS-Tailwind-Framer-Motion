@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Contact_us from "./components/Contact_us/Contact_us";
 import Our_Team from "./components/Our_Team/Our_Team";
 import About_Us from "./components/About_us/About_us";
+import Login from "./components/Login/Login"; 
 
 const App = () => {
   return (
@@ -76,8 +77,19 @@ const App = () => {
             </main>
           }
         />
+
+        {/* Página de Login */}
+        <Route
+          path="/login"
+          element={
+            <main className="overflow-x-hidden bg-white text-dark">
+              <Login /> 
+            </main>
+          }
+        />
       </Routes>
     </Router>
   );
 };
+
 export default App;
